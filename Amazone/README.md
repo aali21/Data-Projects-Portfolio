@@ -6,7 +6,7 @@ This pilot program involves the selection of six Morrison grocery outlets, desig
 
 ## This project is split into different parts
 - Data modelling and designing of the NoSQL schema
-  
+  Understanding the data requirements and how different entities relate to each other
 - Data insertion
 - Querying of the database (using 
 

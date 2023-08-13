@@ -43,9 +43,11 @@ Finally, a view of the final state of the gameplay round was displayed by joinin
 ## Results
 
 A 'gameview' after round 1 of the game. A round consists of 4 players rolling dice.
+
 <img width="427" alt="image" src="https://github.com/aali21/Data-Projects-Portfolio/assets/29689235/0d9e9e3d-82b0-4b30-8f17-5a83aa2959d0">
 
-'gameview' after round 2 of the game
+'gameview' after round 2 of the game:
+
 <img width="431" alt="image" src="https://github.com/aali21/Data-Projects-Portfolio/assets/29689235/513b5ffd-fb2b-4240-9c2e-b23d84c66258">
 
 

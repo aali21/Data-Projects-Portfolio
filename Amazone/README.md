@@ -21,6 +21,10 @@ MongoDB compass allows for easy querying and aggregating as well as analyzing da
 - A cluster is deployed and connected to through Mongo Atlas
 - The appropriate IP address (the current one) is inputted into the projects IP access list. (This allows access to the database with the current IP address).
 
+In Mongo Atlas, we add the IP address you want to give access to in the 'Network access' tab (under 'Security')
+<img width="944" alt="image" src="https://github.com/aali21/Data-Projects-Portfolio/assets/29689235/e15ed9bb-b93f-47be-b0f7-68a4e1216cb9">
+
+
 Here is the collections structure and some example data (in MongoDB Compass) 
 <img width="935" alt="image" src="https://github.com/aali21/Data-Projects-Portfolio/assets/29689235/0486e997-7352-4f0d-bcdf-4acd0305feb0">
 

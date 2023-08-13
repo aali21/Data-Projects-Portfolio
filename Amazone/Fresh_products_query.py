@@ -1,3 +1,29 @@
+from pymongo import MongoClient
+import pprint
+import pandas as pd
+
+conn_str = "mongodb+srv://aali:foYGINYscfu474A9@cluster0.ykrvjpk.mongodb.net/test"
+
+# Create a MongoClient instance using the connection string, with a timeout of 5 seconds for server selection
+client = MongoClient(conn_str, serverSelectionTimeoutMS=5000)
+try:
+    print(client.server_info())
+except Exception:
+    print("Unable to connect to the server.")
+
+CONNECTION_STRING = "mongodb+srv://aali:foYGINYscfu474A9@cluster0.ykrvjpk.mongodb.net/test"
+ 
+# Create a connection using MongoClient. You can import MongoClient or use pymongo.MongoClient
+myClient= MongoClient(CONNECTION_STRING)
+
+# Getting the database
+myDB= myClient["Amazone"]
+customersCollection = myDB["customers"]
+
+# Connecting to products collection
+productsCollection = myDB["products"]
+
+
 # Suppliers collection
 suppliersCollection = myDB["suppliers"]
 fresh_product_details= suppliersCollection.aggregate([
